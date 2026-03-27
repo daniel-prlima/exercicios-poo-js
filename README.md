@@ -1,21 +1,21 @@
 # Atividades de POO com JavaScript
 
-[cite_start]Este repositório contém a resolução de uma lista de exercícios de Programação Orientada a Objetos (POO)[cite: 1]. O objetivo do projeto é consolidar conceitos fundamentais de POO aplicados na linguagem JavaScript, como classes, objetos, herança, polimorfismo e encapsulamento.
+Este repositório contém a resolução de uma lista de exercícios de Programação Orientada a Objetos (POO)O objetivo do projeto é consolidar conceitos fundamentais de POO aplicados na linguagem JavaScript, como classes, objetos, herança, polimorfismo e encapsulamento.
 
 ## 🚀 Exercícios Desenvolvidos
 
 Os exercícios foram separados em módulos e podem ser testados de forma independente:
 
-* **1. [cite_start]Criando sua primeira classe** [cite: 2][cite_start]: Criação de uma classe `Pessoa` com atributos e método de apresentação[cite: 3, 4, 7, 8].
-* **2. [cite_start]Classe com ação** [cite: 11][cite_start]: Classe `Carro` com métodos para acelerar, frear e mostrar a velocidade[cite: 12, 17, 18, 19, 20].
-* **3. [cite_start]Sistema de conta bancária** [cite: 22][cite_start]: Classe `ContaBancaria` com regras de depósito, saque e verificação de saldo[cite: 23, 27, 28, 29, 30].
-* **4. [cite_start]Polimorfismo simples** [cite: 33][cite_start]: Classe `Animal` com herança para `Cachorro` e `Gato`, reescrevendo o método de fala[cite: 34, 38, 39, 41, 42].
-* **5. [cite_start]Sistema de produtos** [cite: 44][cite_start]: Classe `Produto` com cálculo de preço total baseado na quantidade[cite: 45, 51].
-* **6. [cite_start]Cadastro de alunos** [cite: 53][cite_start]: Classe `Aluno` contendo notas e cálculo de média para aprovação/reprovação[cite: 54, 60, 61, 62].
-* **7. [cite_start]Lista de objetos (Array + POO)** [cite: 63][cite_start]: Criação de uma classe `Livro` armazenando instâncias dentro de um array[cite: 64, 68].
-* **8. [cite_start]Encapsulamento** [cite: 71][cite_start]: Classe `Usuario` validando acesso através de um atributo privado `#senha`[cite: 72, 75, 77].
-* **9. [cite_start]Sistema de veículos (Herança)** [cite: 79][cite_start]: Classe mãe `Veiculo` com filhas `Carro` e `Moto`, exibindo informações[cite: 80, 86, 87, 89, 91].
-* **10. [cite_start]Desafio Final (Mini sistema de Loja)** [cite: 92, 93][cite_start]: Integração entre uma classe `Produto` e `Carrinho` para calcular totais de compras[cite: 94, 97, 101].
+* **1. Criando sua primeira classe** Criação de uma classe `Pessoa` com atributos e método de apresentação4.
+* **2. Classe com ação** Classe `Carro` com métodos para acelerar, frear e mostrar a velocidade.
+* **3. Sistema de conta bancária** Classe `ContaBancaria` com regras de depósito, saque e verificação de saldo.
+* **4. Polimorfismo simples** Classe `Animal` com herança para `Cachorro` e `Gato`, reescrevendo o método de fala .
+* **5. Sistema de produtos** Classe `Produto` com cálculo de preço total baseado na quantidade.
+* **6. Cadastro de alunos** Classe `Aluno` contendo notas e cálculo de média para aprovação/reprovação .
+* **7. Lista de objetos (Array + POO)** Criação de uma classe `Livro` armazenando instâncias dentro de um array.
+* **8. Encapsulamento** Classe `Usuario` validando acesso através de um atributo privado `#senha`.
+* **9. Sistema de veículos (Herança)** Classe mãe `Veiculo` com filhas `Carro` e `Moto`, exibindo informações.
+* **10. Desafio Final (Mini sistema de Loja)** : Integração entre uma classe `Produto` e `Carrinho` para calcular totais de compras.
 
 ## 🛠️ Tecnologias Utilizadas
 
