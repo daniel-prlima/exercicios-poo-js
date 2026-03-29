@@ -8,12 +8,12 @@ class Produto {
 class Carrinho {
   constructor() {
 
-    this.produtos = []; 
+    this.produtos = [];
   }
 
   adicionarProduto(produto) {
-    
-    this.produtos.push(produto); 
+
+    this.produtos.push(produto);
   }
 
   mostrarCarrinho() {
@@ -21,17 +21,36 @@ class Carrinho {
       console.log("O carrinho está vazio.");
       return;
     }
-    
-    this.produtos.forEach((p) => {
-      console.log(`${p.nome} - R$ ${p.preco.toFixed(2)}`);
+
+    this.produtos.forEach((produto) => {
+      console.log(`${produto.nome} | R$ ${produto.preco.toFixed(2)}`);
     });
   }
 
   calcularTotal() {
     let total = 0;
-    this.produtos.forEach((p) => {
-      total += p.preco;
+    this.produtos.forEach((produto) => {
+      total += produto.preco;
     });
-    return total; 
+    return total;
   }
+}
+
+export function exercicio10(){
+  
+  const carrinho = new Carrinho();
+
+  const produto1 = new Produto("Camiseta", 49.99);
+  const produto2 = new Produto("Calça Jeans", 89.99);
+  const produto3 = new Produto("Tênis", 129.99);
+
+  carrinho.adicionarProduto(produto1);
+  carrinho.adicionarProduto(produto2);
+  carrinho.adicionarProduto(produto3);
+
+  carrinho.mostrarCarrinho();
+
+  console.log(`Total: R$ ${carrinho.calcularTotal().toFixed(2)}`);
+
+
 }
